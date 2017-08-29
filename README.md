@@ -15,19 +15,9 @@
 
 $ python3 duplicates.py -f ./test_folders
 # пример ответа скрипта
-Сканирование папок -> ./test_folders
-Сканирование папок -> ./test_folders/wallpaper
-Сканирование папок -> ./test_folders/wallpaper/nextfolder
-Сканирование папок -> ./test_folders/Teambuilding_21_07_2017
 
 Дубликаты найдены:
 Эти файлы одинаковые. Названия файлов могут быть разными, но содержание одинаковое:
-
---- одинаковые файлы ---
-./test_folders/wallpaper/5.jpg
-./test_folders/wallpaper/nextfolder/new5.jpg
-./test_folders/Teambuilding_21_07_2017/5.jpg
-
 
 --- одинаковые файлы ---
 ./test_folders/wallpaper/nextfolder/Image_from_Skype.jpg
@@ -37,6 +27,12 @@ $ python3 duplicates.py -f ./test_folders
 --- одинаковые файлы ---
 ./test_folders/whats.jpg
 ./test_folders/Teambuilding_21_07_2017/4.jpg
+
+
+--- одинаковые файлы ---
+./test_folders/wallpaper/5.jpg
+./test_folders/wallpaper/nextfolder/new5.jpg
+./test_folders/Teambuilding_21_07_2017/5.jpg
 
 ```
 
